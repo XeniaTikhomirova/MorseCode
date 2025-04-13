@@ -18,7 +18,7 @@ static class MorseCode
 
     public static string Get(string code)
     {
-        return morseMap.ContainsKey(code) ? morseMap[code] : "?"; // если нет символа — вернуть "?"
+        return morseMap.ContainsKey(code) ? morseMap[code] : "?";
     }
 }
 

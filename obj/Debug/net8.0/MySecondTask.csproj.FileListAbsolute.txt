@@ -26,3 +26,4 @@
 /Users/kseniatikhomirova/Desktop/Job_Ausbildung/Ausbildung_Materialen/IT/CodeWars/task2/MySecondTask/bin/Debug/net8.0/MySecondTask.pdb
 /Users/kseniatikhomirova/Desktop/Job_Ausbildung/Ausbildung_Materialen/IT/CodeWars/task2/MySecondTask/obj/Debug/net8.0/MySecondTask.genruntimeconfig.cache
 /Users/kseniatikhomirova/Desktop/Job_Ausbildung/Ausbildung_Materialen/IT/CodeWars/task2/MySecondTask/obj/Debug/net8.0/ref/MySecondTask.dll
+/Users/kseniatikhomirova/Desktop/Job_Ausbildung/Ausbildung_Materialen/IT/CodeWars/task2/MySecondTask/obj/Debug/net8.0/MySecondTask.sourcelink.json
