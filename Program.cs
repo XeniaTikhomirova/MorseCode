@@ -31,26 +31,36 @@ class MorseCodeDecoder
 	{
     morseCode = morseCode.Trim();
     
+    //Division for words:
     string[] words = morseCode.Split(new string[] { "   " }, StringSplitOptions.None);
     
+    //Place for saving decorded words:
     List<string> decordedWords = new List<string>();
     
-    
+    //split sentence in words:
     foreach(string word in words) {
       
+      //split each word in letters:
       string[] letters = word.Split(' ');
       Console.WriteLine(word);
       
+      //place for saving decorded letters:
       string decodedWord = "";
+
+      //Decord each letter if its exist and not a null, then add to saving space decodedWord:
       
       foreach (string letter in letters) {
         if(!string.IsNullOrEmpty(letter)) {
           decodedWord += MorseCode.Get(letter);          
         }
         Console.WriteLine(decodedWord);
-      }         
+      }
+
+      //Collect all words together:         
       decordedWords.Add(decodedWord);         
     }
+
+    //Separate words with "space":
     
     return string.Join(" ", decordedWords);
 		
